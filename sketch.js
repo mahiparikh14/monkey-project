@@ -54,7 +54,8 @@ function draw() {
  background("white")
   
    text("Score: "+ score, 500,50);
-  
+  camara.position.x = monkey.x
+  camara.position.y = monkey.y
   
   if(gameState === PLAY){
     
